@@ -1,4 +1,4 @@
-# ex:
+# Ex:
 # ask_input my_ans "confirm create: $wd ?"
 ask_input() {
   local -n answer_ref=$1
