@@ -1,6 +1,5 @@
 is_number() {
-  local a1="$1"
-  if [ -n "$a1" ] && [ "$a1" -eq "$a1" ] 2>/dev/null; then
+  if [ -n "$1" ] && [ "$1" -eq "$1" ] 2>/dev/null; then
     echo true
   else
     echo false

@@ -1,0 +1,7 @@
+must be indepedent,
+no depenedenciws
+
+data
+
+source $(nex _lib core)
+$nex_lib/hello
